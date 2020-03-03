@@ -5,8 +5,8 @@ LABEL com.github.actions.description="Lint your code with clang-tidy in parallel
 LABEL com.github.actions.icon="code"
 LABEL com.github.actions.color="gray-dark"
 
-LABEL repository="https://github.com/smay1613/clang-tidy-action"
-LABEL maintainer="smay1613 <dimaafa0@gmail.com>"
+LABEL repository="https://github.com/rostamn739/clang-tidy-action"
+LABEL maintainer="rostamn739 <rostamn739@gmail.com>"
 
 WORKDIR /build
 RUN apt-get update
