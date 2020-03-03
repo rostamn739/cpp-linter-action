@@ -26,7 +26,7 @@ done
 echo "Files downloaded!"
 echo "Performing checkup:"
 clang-tidy --version
-clang-tidy *.cpp *.h -checks=boost-*,bugprone-*,performance-*,portability-*,modernize-*,clang-analyzer-cplusplus-*,clang-analyzer-*,cppcoreguidelines-* > clang-tidy-report.txt
+clang-tidy *.cpp -checks=boost-*,bugprone-*,performance-*,portability-*,modernize-*,clang-analyzer-cplusplus-*,clang-analyzer-*,cppcoreguidelines-* > clang-tidy-report.txt
 
 cppcheck --enable=all --std=c++17 --language=c++ --output-file=cppcheck-report.txt *
 
